@@ -1,0 +1,32 @@
+/*
+  样式规范表
+*/
+// 字体大小设置
+$font-size-base: .22rem;
+
+// 常规配色设置
+$link-active-color: #ff6700; // tabbar按钮和icon激活
+$border-color: #e5e5e5;
+$nav-active-color:rgb(237, 91, 0);
+
+//bgc
+$bgc-theme: #fff;
+$header-bgc: #f2f2f2;
+$homeslider:#ccc;
+$border-recom:rgb(245, 245, 245);
+$border-recom-s: rgb(255, 255, 255);
+$modal-bgc: rgba(0, 0, 0, 0.4);
+
+
+//z-index
+$navbar-z-index: 1000;
+$tabbar-z-index: 1000;
+$backtop-z-index: 1100;
+$search-z-index: 1200;
+$nav-z-display:100;
+$nav-z-hide:90;
+$product-z-index: 1200;
+
+//size
+$navbar-height: 52px;
+$tabbar-height: 52px;
