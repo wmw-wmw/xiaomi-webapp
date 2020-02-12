@@ -1,4 +1,4 @@
-# xiaomi-webapp
+# 该项目是对小米商城 移动端 的精仿
 
 ## Project setup
 ```
