@@ -1,0 +1,477 @@
+{
+  "code": 0,
+  "data": {
+    "tabs": [
+      {
+        "name": "推荐",
+        "page_id": 0
+      },
+      {
+        "name": "手机",
+        "page_id": 12325
+      },
+      {
+        "name": "智能",
+        "page_id": 12397
+      },
+      {
+        "name": "电视",
+        "page_id": 12406
+      },
+      {
+        "name": "笔记本",
+        "page_id": 12426
+      },
+      {
+        "name": "家电",
+        "page_id": 12402
+      },
+      {
+        "name": "生活周边",
+        "page_id": 11868
+      }
+    ],
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/68ec60406b1a3923c250ebae093fbd0d.jpg?thumb=1&w=720&h=360",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0b237cfcc2108a45180a11f0f0a6f375.jpg?thumb=1&w=720&h=360",
+        "path": ""
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9feb2f3c8ea6ca5eeb72c9af97b9dbfc.jpg?thumb=1&w=720&h=360",
+        "path": ""
+      }
+    ],
+    "iconList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png?thumb=1&w=144&h=152",
+        "desc": "小米秒杀",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/eb5024fe-dfe3-6e53-3e18-675bef5fa06e.webp",
+        "desc": "小米众筹",
+        "path": ""
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6eb2a9a73687e007daf30fc3f85e0ad2.gif",
+        "desc": "",
+        "path": ""
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/e8bc849a-0a3b-21a0-6810-7da3a3903dee.webp",
+        "desc": "以旧换新",
+        "path": ""
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/7dbcbf87-6a58-adb6-2f3f-bb3dae3e9c80.webp",
+        "desc": "超值特卖",
+        "path": ""
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bc1c677a6e10e42d00fb0a063662fbf9.png?thumb=1&w=144&h=152",
+        "desc": "666元红包",
+        "path": ""
+      },
+      {
+        "id": "0007",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ea68dee2bfa0e55a82236b0d968e975.png?thumb=1&w=144&h=152",
+        "desc": "笔记本热卖",
+        "path": ""
+      },
+      {
+        "id": "0008",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96c780016ea196743905dc93f9249c39.png?thumb=1&w=144&h=152",
+        "desc": "电视热卖",
+        "path": ""
+      },
+      {
+        "id": "0009",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9425031cdd7af22d9a23a5ae16d1f57c.jpg?thumb=1&w=144&h=152",
+        "desc": "空调热卖",
+        "path": ""
+      },
+      {
+        "id": "0010",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f11f9df6b0b0b428f8c8fc3267131830.png?thumb=1&w=144&h=152",
+        "desc": "米粉卡",
+        "path": ""
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/32b5d24417b673008f386592c4d17046.jpg?thumb=1&w=358&h=508",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5e5e9fd3ad473198af22be85f5b27708.jpg?thumb=1&w=358&h=252",
+        "path": ""
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/267e988a99b5cf4e960747e8aa5fa831.jpg?thumb=1&w=358&h=252",
+        "path": ""
+      }
+    ],
+    "bannerList01": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3ca39ff880dfbcbc0e45314782c39fff.jpg?thumb=1&w=720&h=280",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e32eea5c3c27062019f9ac6434b351df.jpg?thumb=1&w=720&h=440",
+        "path": ""
+      }
+    ],
+    "shoplist01": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/918eafcf051967f9d212a649fad7de28.jpg?thumb=1&w=344&h=280",
+        "product_name": "Redmi Note 8 Pro",
+        "product_brief": "6400万全场景四摄",
+        "product_price": "1299",
+        "product_org_price": "1399"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8025107813883a20d3f2d956ad80ea38.jpg?thumb=1&w=344&h=280",
+        "product_name": "Redmi Note 8",
+        "product_brief": "千元4800万四摄",
+        "product_price": "999",
+        "product_org_price": "1200"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/905c13a84d8b70c9b9f4e3dee10a9515.jpg?thumb=1&w=344&h=280",
+        "product_name": "Redmi Note 7 Pro",
+        "product_brief": "索尼4800万超清拍照 ",
+        "product_price": "1199",
+        "product_org_price": "1599"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/86143982-11ca-5249-e90c-eecfdb9b98a0.webp",
+        "product_name": "Redmi K20",
+        "product_brief": "弹出全面屏，4800万三摄",
+        "product_price": "1999",
+        "product_org_price": "2099"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/baf1995a35e823c99e7c8ffd287d64ee.jpg?thumb=1&w=344&h=280",
+        "product_name": "小米9",
+        "product_brief": "全息幻彩机身，骁龙855",
+        "product_price": "2699",
+        "product_org_price": "3299"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c45bb8ab2c35e31910612acd2cb7f91.jpg?thumb=1&w=344&h=280",
+        "product_name": "小米9 Pro 5G",
+        "product_brief": "5G双卡全网通，骁龙855Plus",
+        "product_price": "3699",
+        "product_org_price": "3699"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f5e8faabd72ee160e245447357f1708e.jpg?thumb=1&w=344&h=280",
+        "product_name": "Redmi 7 ",
+        "product_brief": "4000mAh超长续航",
+        "product_price": "899",
+        "product_org_price": "999"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/549abe9d4dde71ac9e3fa87a4e13ec62.jpg?thumb=1&w=344&h=280",
+        "product_name": "黑鲨手机2 Pro",
+        "product_brief": "骁龙855 Plus ",
+        "product_price": "2999",
+        "product_org_price": "2999"
+      }
+    ],
+    "bannerList02": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ad96e9decd39cf161bb27825e1e72f72.jpg?thumb=1&w=720&h=280",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/34cc562e-8dd3-61e9-0209-395edb9237a1.webp",
+        "path": ""
+      }
+    ],
+    "shoplist02": [
+      {
+        "id": "0001",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/82003442-c6b7-3258-cc7a-2a851216ce8a.webp",
+        "product_name": "小米电视4A 65英寸",
+        "product_brief": "4K HDR，人工智能语音系统",
+        "product_price": "2599",
+        "product_org_price": "2999"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7cd59729b9a02407979848839c0e5343.jpg?thumb=1&w=344&h=280",
+        "product_name": "小米电视4X 43英寸",
+        "product_brief": "FHD全高清屏，人工智能语音",
+        "product_price": "1199",
+        "product_org_price": "1499"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/896d989bcdae584906c36f4a4e5fa89b.jpg?thumb=1&w=344&h=280",
+        "product_name": "小米电视4C 50英寸",
+        "product_brief": "4K HDR，钢琴烤漆",
+        "product_price": "1499",
+        "product_org_price": "1699"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4b624a157d24822509e1f54316c8417a.jpg?thumb=1&w=344&h=280",
+        "product_name": "小米电视4C 55英寸",
+        "product_brief": "4K HDR，人工智能系统",
+        "product_price": "1699",
+        "product_org_price": "1999"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d20e4c39b6967319e89b1f779332b0e.jpg?thumb=1&w=344&h=280",
+        "product_name": "小米电视4A 32英寸",
+        "product_brief": "人工智能系统，高清液晶屏",
+        "product_price": "699",
+        "product_org_price": "799"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/06bd0cdc9a6d3cc76850633a8ffb9d74.png?thumb=1&w=344&h=280",
+        "product_name": "小米电视4A 50英寸",
+        "product_brief": "4K HDR，人工智能语音系统",
+        "product_price": "1499",
+        "product_org_price": "1699"
+      }
+    ],
+    "bannerList03": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f9f9447bdf7ab046a6744e348c5e237d.jpg?thumb=1&w=720&h=280",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/95fa21d026bd0a93b16b38ee20e96cab.jpg?thumb=1&w=720&h=440",
+        "path": ""
+      }
+    ],
+    "shoplist03": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/67af8c5df281feb89083c94a69ad4e23.jpg?thumb=1&w=344&h=280",
+        "product_name": "RedmiBook 14 增强版",
+        "product_brief": "十代酷睿更强劲",
+        "product_price": "3999",
+        "product_org_price": "3999"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c57cab6baca6d2b23ba3c81df8b72abc.jpg?thumb=1&w=344&h=280",
+        "product_name": "RedmiBook 14 ",
+        "product_brief": "超轻薄全金属独显笔记本",
+        "product_price": "4499",
+        "product_org_price": "4999"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/399cfcaa4aae2766733e46704935bdd4.jpg?thumb=1&w=344&h=280",
+        "product_name": "Air 13.3\" 2019款",
+        "product_brief": "新一代独立显卡",
+        "product_price": "4999",
+        "product_org_price": "4999"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ff646eb3db372e455a7154331fa58d53.jpg?thumb=1&w=344&h=280",
+        "product_name": "Ruby15.6\" MX110 独显版",
+        "product_brief": "全面均衡的国民轻薄本",
+        "product_price": "3799",
+        "product_org_price": "4299"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/1ed6a607-21e5-8d85-e0e9-dfb07571fc6a.webp",
+        "product_name": "小米游戏本",
+        "product_brief": "冷酷的性能怪兽\u0009",
+        "product_price": "6699",
+        "product_org_price": "6699"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4f09569618c64e3f6f36d1be6922e3cc.jpg?thumb=1&w=344&h=280",
+        "product_name": "Pro 15.6\" GTX显卡",
+        "product_brief": "更强悍的专业笔记本",
+        "product_price": "5999",
+        "product_org_price": "6299"
+      }
+    ],
+    "bannerList04": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/85ea26a99c704861af8e29bf7f249fed.jpg?thumb=1&w=720&h=280",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/3466df89-e534-a68c-6504-2b6e0a704307.webp",
+        "path": ""
+      }
+    ],
+    "shoplist04": [
+      {
+        "id": "0001",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/c585ed38-bee4-2f3c-c413-a1af154a74b3.webp",
+        "product_name": "空调（1.5匹/一级能效）",
+        "product_brief": "变频节能，高效制冷热",
+        "product_price": "2399",
+        "product_org_price": "2699"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/552e42b8706ee8d0bd3e048d2a5c4316.jpg?thumb=1&w=360&h=360",
+        "product_name": "米家洗烘一体机Pro",
+        "product_brief": "智能洗烘，省心省力",
+        "product_price": "2999",
+        "product_org_price": "2999"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/75f5a1ad-e2c6-36a9-fd56-66d253cc0469.webp",
+        "product_name": "空调（大1匹/三级能效）",
+        "product_brief": "出众静音，快速制冷热",
+        "product_price": "1699",
+        "product_org_price": "1799"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/27721d21-782a-32e8-772b-462652d9acde.webp",
+        "product_name": "米家洗烘一体机",
+        "product_brief": "智能烘干，高效净衣",
+        "product_price": "1999",
+        "product_org_price": "2299"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/ce8d4b39-18b3-5b8e-ea74-5a2c86856e20.webp",
+        "product_name": "空调C1（1.5匹/一级能效）",
+        "product_brief": "变频节能省电，自清洁",
+        "product_price": "2599",
+        "product_org_price": "2799"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/33c6d391-82a0-0fd2-2d0e-fb59f4679b6c.webp",
+        "product_name": "Redmi波轮洗衣机1A",
+        "product_brief": "一键操作，父母都爱用",
+        "product_price": "699",
+        "product_org_price": "799"
+      }
+    ],
+    "bannerList05": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a56394373382e7d98a395b25c709cfcb.jpg?thumb=1&w=720&h=280",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df9f0ec1b502e3f7ca36779c7596c7c4.jpg?thumb=1&w=720&h=440",
+        "path": ""
+      }
+    ],
+    "shoplist05": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c33f008a86c151a1500d44d599351256.jpg?thumb=1&w=360&h=360",
+        "product_name": "小爱音箱万能遥控版",
+        "product_brief": "传统家电秒变智能",
+        "product_price": "149",
+        "product_org_price": "199"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/739c1321d2a05d48c0b8b86cd459c4d4.jpg?thumb=1&w=360&h=360",
+        "product_name": "米家照片打印机",
+        "product_brief": "手机即拍即印",
+        "product_price": "499",
+        "product_org_price": "499"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/efae8106bc194e6a730294c9ee531caf.jpg?thumb=1&w=360&h=360",
+        "product_name": "小米净水器600G",
+        "product_brief": "600加仑大通量，即滤即饮无存水",
+        "product_price": "1999",
+        "product_org_price": "2499"
+      }
+    ],
+    "shoplist06": [
+      {
+        "id": "0001",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/46c44f3e-479d-a999-dd2d-98fb39b51e17.webp",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/b79cb907-3ae4-2a35-6756-b243b386a95a.webp",
+        "path": ""
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/b883172b-5aa3-7855-678f-c615109ee0a7.webp",
+        "path": ""
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/8cfcd654-4af5-9ae6-c6cc-1ba9d28be8e8.webp",
+        "path": ""
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/52866372-7fe5-76c2-29a0-9ae32d07b8ff.webp",
+        "path": ""
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://i8.mifile.cn/v1/a1/ad91499a-59ab-adc3-8fd5-98aefc1c43b4.webp",
+        "path": ""
+      }
+    ],
+    "bannerList06": [
+      {
+        "id": "0001",
+        "imgUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f4c4a11536a720ee0f1b516e53e4d868.jpg?thumb=1&w=720&h=280",
+        "path": ""
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/bbb5bac8089d890338b5bf8ff742cbbc.png?thumb=1&w=720&h=106",
+        "path": ""
+      }
+    ]
+  }
+}
