@@ -8,6 +8,8 @@ import axios from 'axios';
 
 import 'assets/js/rem.js';
 import 'assets/scss/index.scss';
+import 'swiper/dist/css/swiper.css';
+
 // 解决300毫秒延迟
 fastclick.attach(document.body);
 

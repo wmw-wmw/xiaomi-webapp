@@ -2,22 +2,22 @@
   <div class="home">
     <!-- 首页头部区 -->
     <header class="header-container">
-      <home-header></home-header>
+      <home-header @navChange="navChange"></home-header>
     </header>
     <!-- 推荐页 -->
     <recommend v-show="i[0] == index"></recommend>
     <!-- 手机页 -->
-    <phone v-show="i[1] == index"></phone>
+    <phone v-if="i[1] == index"></phone>
     <!-- 智能页 -->
-    <intelligence v-show="i[2] == index"></intelligence>
+    <intelligence v-if="i[2] == index"></intelligence>
     <!-- 电视页 -->
-    <television v-show="i[3] == index"></television>
+    <television v-if="i[3] == index"></television>
     <!-- 笔记本页 -->
-    <notebook v-show="i[4] == index"></notebook>
+    <notebook v-if="i[4] == index"></notebook>
     <!-- 家电页 -->
-    <electrical v-show="i[5] == index"></electrical>
+    <electrical v-if="i[5] == index"></electrical>
     <!-- 生活周边页 -->
-    <life v-show="i[6] == index"></life>
+    <life v-if="i[6] == index"></life>
   </div>
 </template>
 
