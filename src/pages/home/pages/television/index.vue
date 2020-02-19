@@ -10,7 +10,7 @@
     data() {
       return {
         imgUrl:
-          'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d5a1c2397f50c197b9dc72d51092048e.jpg?thumb=1&w=720&h=470'
+          'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5f0503a9776391de7d6f7f925323163d.jpg?thumb=1&w=720&h=294'
       };
     }
   };

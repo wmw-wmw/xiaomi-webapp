@@ -1,32 +1,62 @@
 <template>
   <div class="recommend">
-    <!-- 推荐页轮播图组件 -->
-    <recommend-slider :swiperList="swiperList"></recommend-slider>
-    <!-- 推荐页nav组件 -->
-    <recommend-nav :iconList="iconList"></recommend-nav>
-    <!-- 广告图片和商品展示部分 -->
-    <!-- bannerList部分 -->
-    <div class="bannerList" v-if="bannerList.length">
-      <div class="left-items">
-        <a href="#">
-          <img :src="bannerList[0].imgUrl" />
-        </a>
+    <scroll
+      class="wrapper"
+      :data="shoplist01"
+      ref="scroll"
+      :probe-type="3"
+      :listenScroll="true"
+      @scroll="contentScroll"
+    >
+      <!-- 推荐页轮播图组件 -->
+      <recommend-slider :swiperList="swiperList"></recommend-slider>
+      <!-- 推荐页nav组件 -->
+      <recommend-nav :iconList="iconList"></recommend-nav>
+      <!-- 广告图片和商品展示部分 -->
+      <!-- bannerList部分 -->
+      <div class="bannerList" v-if="bannerList.length">
+        <div class="left-items">
+          <a href="#">
+            <img :src="bannerList[0].imgUrl" />
+          </a>
+        </div>
+        <div class="right-items">
+          <a href="#" class="right-item">
+            <img :src="bannerList[1].imgUrl" />
+          </a>
+          <a href="#">
+            <img :src="bannerList[2].imgUrl" />
+          </a>
+        </div>
       </div>
-      <div class="right-items">
-        <a href="#" class="right-item">
-          <img :src="bannerList[1].imgUrl" />
-        </a>
-        <a href="#">
-          <img :src="bannerList[2].imgUrl" />
-        </a>
+      <!-- bannerList01部分 -->
+      <div class="bannerList01" v-if="bannerList01.length">
+        <div>
+          <a href="#">
+            <img class="bannerList01-top" v-lazy="bannerList01[0].imgUrl" />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img class="bannerList01-buttom" v-lazy="bannerList01[1].imgUrl" />
+          </a>
+        </div>
       </div>
-    </div>
+      <goods :shoplist01="shoplist01"></goods>
+      <goods :shoplist01="shoplist01"></goods>
+      <goods :shoplist01="shoplist01"></goods>
+    </scroll>
+    <!-- 返回顶部按钮 -->
+    <back-top @backTop="backTop" v-show="isShowBackTop"></back-top>
   </div>
 </template>
 
 <script>
   import RecommendSlider from './slider';
   import RecommendNav from './nav';
+  import Scroll from 'base/scroll';
+  import Goods from './goods';
+  import BackTop from 'base/backtop';
 
   import { SUCC_CODE } from 'api/config.js';
 
@@ -34,7 +64,10 @@
     name: 'Recommend',
     components: {
       RecommendSlider,
-      RecommendNav
+      RecommendNav,
+      Scroll,
+      Goods,
+      BackTop
     },
     data() {
       return {
@@ -43,16 +76,6 @@
         bannerList: [],
         bannerList01: [],
         shoplist01: [],
-        bannerList02: [],
-        shoplist02: [],
-        bannerList03: [],
-        shoplist03: [],
-        bannerList04: [],
-        shoplist04: [],
-        bannerList05: [],
-        shoplist05: [],
-        shoplist06: [],
-        bannerList06: [],
         isShowBackTop: false
       };
     },
@@ -69,16 +92,6 @@
           this.bannerList = res.data.bannerList;
           this.bannerList01 = res.data.bannerList01;
           this.shoplist01 = res.data.shoplist01;
-          this.bannerList02 = res.data.bannerList02;
-          this.shoplist02 = res.data.shoplist02;
-          this.bannerList03 = res.data.bannerList03;
-          this.shoplist03 = res.data.shoplist03;
-          this.bannerList04 = res.data.bannerList04;
-          this.shoplist04 = res.data.shoplist04;
-          this.bannerList05 = res.data.bannerList05;
-          this.shoplist05 = res.data.shoplist05;
-          this.shoplist06 = res.data.shoplist06;
-          this.bannerList06 = res.data.bannerList06;
         }
       },
       backTop() {
@@ -115,6 +128,7 @@
   width: 7.2rem;
   height: 5.08rem;
   margin-top: 0.16rem;
+  background-color: #fff;
   div {
     flex: 1;
     a {
@@ -129,6 +143,25 @@
   }
   .right-item {
     margin-bottom: 0.04rem;
+  }
+}
+
+// bannerList01部分
+.bannerList01 {
+  a {
+    display: block;
+    width: 7.2rem;
+  }
+  .bannerList01-top {
+    display: block;
+    width: 7.2rem;
+    height: 2.8rem;
+    margin: 0.16rem 0;
+  }
+  .bannerList01-buttom {
+    display: block;
+    width: 7.2rem;
+    height: 4.4rem;
   }
 }
 </style>

@@ -1,16 +1,16 @@
 <template>
-  <div class="electrical">
+  <div class="life">
     <img :src="imgUrl" />
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Electrical',
+    name: 'Life',
     data() {
       return {
         imgUrl:
-          'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4db350ebc63fc2cc5d264576ad777e50.jpg?thumb=1&w=720&h=360'
+          'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/73b9dffdfb7c32624f4093a8dc2d76f2.jpg?thumb=1&w=720&h=406'
       };
     }
   };
