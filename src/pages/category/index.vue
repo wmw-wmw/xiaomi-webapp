@@ -1,27 +1,5 @@
 <template>
   <div class="category">
-    <!-- header区 -->
-    <navbar class="header">
-      <template v-slot:left>
-        <div @click="goHome">
-          <a href="javascript:;" class="header-left">
-            <i></i>
-          </a>
-        </div>
-      </template>
-      <template v-slot:center>
-        <div class="header-middle">
-          <div>分类</div>
-        </div>
-      </template>
-      <template v-slot:right>
-        <router-link tag="div" to="/search">
-          <a href="javascript:;" class="header-right">
-            <i></i>
-          </a>
-        </router-link>
-      </template>
-    </navbar>
     <!-- tab栏区 -->
     <div class="tab">
       <ul class="tab-list" ref="tabList">
@@ -42,12 +20,7 @@
     <div class="main">
       <scroll class="wrapper" :data="category" ref="scroll">
         <!-- 一层循环 -->
-        <div
-          class="section"
-          v-for="(item, index) in category"
-          :key="index"
-          ref="section"
-        >
+        <div class="section" v-for="(item, index) in category" :key="index" ref="section">
           <a href="#" class="pic">
             <img :src="item.mainImgUrl" v-if="item.mainImgUrl" />
           </a>
@@ -80,14 +53,12 @@
 
 <script>
   import { SUCC_CODE } from 'api/config.js';
-  import Navbar from 'base/navbar';
   import scrollToMiddle from 'api/scrolltop';
   import Scroll from 'base/scroll';
 
   export default {
     name: 'Category',
     components: {
-      Navbar,
       Scroll
     },
     data() {
@@ -119,9 +90,6 @@
         scrollToMiddle(element, element.children[index]);
         // 回到顶部
         this.$refs.scroll.scrollToElement(this.$refs.section[index], 0);
-      },
-      goHome() {
-        this.$router.push('/home');
       }
     }
   };
@@ -137,45 +105,7 @@
   background-color: $bgc-theme;
   margin: 0 auto;
   padding-bottom: 52px;
-  // header区
-  .header {
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    font-size: 0.3rem;
-    background: #f2f2f2;
-    color: #666;
-    &-left {
-      display: block;
-      width: 0.6rem;
-      i {
-        display: block;
-        width: 0.5rem;
-        height: 0.5rem;
-        line-height: 0.6rem;
-        background: url("./img/header-left.png") no-repeat center;
-        background-size: cover;
-      }
-    }
-    &-middle {
-      text-align: center;
-    }
-    &-right {
-      display: block;
-      width: 0.6rem;
-      i {
-        display: block;
-        width: 0.6rem;
-        height: 0.6rem;
-        line-height: 0.6rem;
-        background: url("./img/search.png") no-repeat center;
-        background-size: cover;
-      }
-    }
-  }
+
   // tab栏区
   .tab {
     position: fixed;
