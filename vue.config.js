@@ -2,7 +2,6 @@
 const path = require('path');
 const homenav = require('./mock/homenav.json');
 const recommend = require('./mock/Recommend.json');
-const phone = require('./mock/phone.json');
 const category = require('./mock/category.json');
 const search = require('./mock/search.json');
 
@@ -28,9 +27,6 @@ module.exports = {
             });
             app.get('/recommend', (req, res) => {
                 res.json(recommend);
-            });
-            app.get('/phone', (req, res) => {
-                res.json(phone);
             });
             app.get('/category', (req, res) => {
                 res.json(category);
