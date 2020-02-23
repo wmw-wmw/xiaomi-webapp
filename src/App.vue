@@ -4,16 +4,19 @@
     <div class="g-view-container">
       <!-- 公共头部区 -->
       <transition name="g-header">
-        <div class="g-header-container" v-if="$route.name==='category'||$route.name==='cart'">
+        <div class="g-header-container" v-show="$route.name==='category'||$route.name==='cart'">
           <g-header></g-header>
         </div>
       </transition>
       <router-view></router-view>
     </div>
     <!-- 底部区 -->
-    <div class="g-footer-container">
-      <tabbar></tabbar>
-    </div>
+    <transition name="tabbar">
+      <!-- v-show="$route.name!=='search'"让路由跳转到search页时底部导航条隐藏 -->
+      <div class="g-footer-container" v-show="$route.name!=='search'">
+        <tabbar></tabbar>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -50,6 +53,7 @@
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease-out;
   }
   .g-header-container {
     position: fixed;
@@ -63,10 +67,16 @@
     color: #666;
     transition: transform 0.2s ease-out;
   }
-  // header动画
+  // header部分的动画效果
   .g-header-enter,
   .g-header-leave-to {
     transform: translateY(-100%);
+  }
+
+  // tabbar部分的动画效果
+  .tabbar-enter,
+  .tabbar-leave-to {
+    transform: translateY(100%);
   }
 }
 </style>
