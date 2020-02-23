@@ -1,31 +1,116 @@
 {
     "code": 0,
     "data": {
-        "ad_list": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/12d025189901e793f0a39ce8bb9b7548.jpg?w=1080&h=300&bg=DBFBFA",
+        "ad_list": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c4e5ed3af6e1e92f1948751f9aff9182.jpg?w=1080&h=300&bg=F1F8FF",
         "hot": [
             {
-                "name": "笔记本内胆包"
-            },
-            {
-                "name": "笔记本电脑包"
-            },
-            {
-                "name": "笔记本Air 12.5"
-            },
-            {
-                "name": "笔记本15.6 2019款"
-            },
-            {
-                "name": "笔记本Air"
-            },
-            {
-                "name": "电视43英寸"
-            },
-            {
-                "name": "电视55英寸"
-            },
-            {
-                "name": "电视65英寸"
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "手机",
+                "parameter_id": 1,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "电视",
+                "parameter_id": 7,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "笔记本",
+                "parameter_id": 2,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "盒子",
+                "parameter_id": 9,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "路由器",
+                "parameter_id": 12,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "平板",
+                "parameter_id": 3,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "激光投影",
+                "parameter_id": 11,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "手表",
+                "parameter_id": 20,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "VR",
+                "parameter_id": 21,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "穿戴",
+                "parameter_id": 18,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "空气净化器",
+                "parameter_id": 5,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }, {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "name": "空调",
+                "parameter_id": 59,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
             },
             {
                 "name": "电视32英寸"
@@ -59,16 +144,6 @@
             },
             {
                 "name": "小米9 Pro 5G 8GB+256GB"
-            },
-            {
-                "bottom_title": "",
-                "icon": "",
-                "is_page_show": false,
-                "name": "电视",
-                "parameter_id": 7,
-                "search_title": "",
-                "top_title": "",
-                "value": ""
             },
             {
                 "bottom_title": "",
@@ -556,13 +631,13 @@
                 "back_n": "#e4f5e2",
                 "border_n": "#97c28a",
                 "font_n": "#484848",
-                "word": "小米CC9 Pro"
+                "word": "小米10"
             },
             {
                 "back_n": "#fce5cd",
                 "border_n": "#fac288",
                 "font_n": "#484848",
-                "word": "小米手表"
+                "word": "小米10 Pro"
             },
             {
                 "back_n": "#f9eaea",
