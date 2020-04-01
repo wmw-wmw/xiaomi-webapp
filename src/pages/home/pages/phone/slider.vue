@@ -30,13 +30,13 @@
           {
             id: '0001',
             imgUrl:
-              'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ff3e608e7f4587b5bf62ea59efaf26e9.jpg?thumb=1&w=720&h=360',
+              'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8d5d277f695cf94702eb8c21158c39b9.jpg?thumb=1&w=720&h=360',
             path: ''
           },
           {
             id: '0002',
             imgUrl:
-              'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/241dcd985a1c3f29902d092c7e7b91ea.jpg?thumb=1&w=720&h=360',
+              'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ff3e608e7f4587b5bf62ea59efaf26e9.jpg?thumb=1&w=720&h=360',
             path: ''
           },
           {

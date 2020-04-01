@@ -29,7 +29,7 @@
           <div
             class="btn-item"
             v-for="(item, index) in tabs"
-            :key="index"
+            :key="item.page_id"
             @click="navChange(index)"
             :class="{'btn-item-active': index == navListActiveIndex }"
           >
@@ -41,7 +41,7 @@
     <!-- 导航栏 -->
     <div class="nav-wrap">
       <div class="nav" ref="nav">
-        <div class="nav-item" v-for="(item, index) in tabs" :key="index" @click="navChange(index)">
+        <div class="nav-item" v-for="(item, index) in tabs" :key="item.page_id" @click="navChange(index)">
           <span :class="{'active': index == navListActiveIndex }">{{item.name}}</span>
         </div>
         <!-- 末尾占位 -->
