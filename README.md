@@ -2,19 +2,19 @@
 
 ## 技术栈+框架
 
-vue 2.6
-vue-router
-axios
-sass
-ESlint
-better-scroll
-swiper
-vue-lazyload
-babel
-fastclick
+## vue 2.6
+## vue-router
+## axios
+## sass
+## ESlint
+## better-scroll
+## swiper
+## vue-lazyload
+## babel
+## fastclick
 
 ## 效果图
-
+![Image text]()
 
 ## Project setup
 ```
