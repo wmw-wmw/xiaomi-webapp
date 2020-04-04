@@ -34,21 +34,6 @@ module.exports = {
             app.get('/search', (req, res) => {
                 res.json(search);
             });
-            // app.get('/recommend', (req, res) => {
-            //     res.json(recommend);
-            // });
-            // app.get('/recommend', (req, res) => {
-            //     res.json(recommend);
-            // });
-            // app.get('/recommend', (req, res) => {
-            //     res.json(recommend);
-            // });
-            // app.get('/recommend', (req, res) => {
-            //     res.json(recommend);
-            // });
-            // app.get('/recommend', (req, res) => {
-            //     res.json(recommend);
-            // });
         }
     }
 };
