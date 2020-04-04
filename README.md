@@ -2,20 +2,12 @@
 
 ## 技术栈+框架
 
-## vue 2.6
-## vue-router
-## axios
-## sass
-## ESlint
-## better-scroll
-## swiper
-## vue-lazyload
-## babel
-## fastclick
+## vue 2.6+vue-router+axios+sass+ESlint+better-scroll+swiper+vue-lazyload+babel+fastclick
 
 ## 效果图
-![Image text]()
-
+![Image text](https://github.com/wmw-wmw/xiaomi-webapp/blob/master/src/assets/img/%E9%A6%96%E9%A1%B5.png)
+![Image text](https://github.com/wmw-wmw/xiaomi-webapp/blob/master/src/assets/img/%E9%A6%96%E9%A1%B5.png)
+![Image text](https://github.com/wmw-wmw/xiaomi-webapp/blob/master/src/assets/img/%E9%A6%96%E9%A1%B5.png)
 ## Project setup
 ```
 npm install
